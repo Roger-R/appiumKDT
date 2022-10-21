@@ -18,4 +18,16 @@
 - caseFile
 - core
 
-#### 
+#### Design Description
+- TODO: scan all files in path "/caseFile"
+- etc.
+
+#### Excel Case Template
+| id | CaseDesc | Keyword | eleType | elePath | param1 | param2 | param3 | param4 |
+|----| ---      | ---     | ---     | ---     | ---    | ---    | ---    | ---    |
+|only >0 will run|nullable|start| |appium server url| | | | |
+|only >0 will run|nullable|implicitily| | |int| | | |
+|only >0 will run|nullable|click|By enums, uiautomator|element locator|null if locates single element, int if locates multiple elements| | | |
+|only >0 will run|nullable|swipe| | |start x cornate|start y cornate|end x cornate|end y cornate|
+|only >0 will run|nullable|sleep| | |int| | | |
+    
